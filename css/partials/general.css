@@ -1,0 +1,7 @@
+body {
+  background-color: var(--pageBg);
+}
+
+header {
+  text-align: center;
+}

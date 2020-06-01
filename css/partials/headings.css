@@ -1,0 +1,24 @@
+/* Heading */
+
+.mainHeading {
+  color: var(--mainHeadingTitle);
+  text-transform: uppercase;
+  font-size: 2em;
+  padding-top: 20px;
+}
+
+.secondaryHeading {
+  color: var(--secondaryTitle);
+  font-size: 1.6em;
+  text-transform: uppercase;  
+  padding: 10px 0 5px 0;
+}
+
+.secondaryHeading:after{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 126px;
+  background-color: var(--secondaryTitleSeparator);
+  margin: 22px auto 0 auto;
+}

@@ -1,0 +1,133 @@
+/* Tile */
+
+.tile {
+  display: inline-block;
+  margin: 0 46px 25px 0;
+  width: 369px;
+}
+
+.tile:nth-of-type(3n){
+  margin-right: 0;
+}
+
+.tileCountry {
+  font-weight: 900;
+  display: inline-block;
+}
+
+.tileCountry::after {
+  content: '-';
+  margin: 0 5px;
+}
+
+.tileImage{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tileCity {
+  display: inline-block;
+  font-weight: 400;
+}
+
+.tileExtraInfos {
+  display: flex;
+  padding-top: 4px;
+}
+
+.tileRatings {
+  margin-left: 5px;
+}
+
+.tileTags {
+  display: flex;
+  padding-top: 16px;
+}
+
+.tagSkin {
+  font-size: 0.8em;
+  padding: 4px 6px;
+  text-transform: uppercase;
+}
+
+.tileInfos {
+  padding: 10px;
+  position: relative;
+  background-color: var(--titleBg);
+  margin-top: -2px;
+  text-align: initial;
+}
+
+.moreLink {
+  position: absolute;
+  top: 35%;
+  right: 20px;
+  transform: translateY(-35%);
+
+}
+
+.moreLink::before {
+  content: '';
+  display: block;
+  background-color: var(--readMoreButtonBg);
+  opacity: 0.6;
+  padding: 20px;
+  background-image: url(../../assets/icons/right-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.premium {
+  color: var(--tagPreniumText);
+  background-color: var(--tagPreniumBg);
+  margin-right: 15px;
+}
+
+.option {
+  color: var(--tagOptionText);
+  background-color: var(--tagOptionBg);
+}
+
+@media screen and (max-width: 1198px){
+
+  .tile:nth-of-type(3n) {
+    margin-right: 46px;
+  }
+   
+  .tile:nth-of-type(2n) {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 731px){
+  .tile {
+    margin: 10px auto;
+  }
+
+  .tile:nth-of-type(3n){
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 370px){
+  .tile{
+    width: 98%;
+  }
+
+  .tileImage {
+    width: 100%;
+  }
+} 
+
+
+@media screen and (min-width: 621px) and (max-width: 785px){
+  .tile {
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+
+  .tile:nth-of-type(3n){
+    margin-right: auto;
+  }
+} 

@@ -1,0 +1,20 @@
+/* Colors */
+
+:root {
+  /* Page */
+  --pageBg: #efefef;
+
+  /* Headings */
+  --mainHeadingTitle: #d92e22;
+  --secondaryTitle:#333333;
+  --secondaryTitleSeparator: #333333;
+  --terTitleSeparator: #d92e22;
+
+  /* Tilte */
+  --titleBg: #FFF;
+  --readMoreButtonBg: #d92e22;
+  --tagPreniumBg: #333333;
+  --tagPreniumText: #FFF;
+  --tagOptionBg: #bd9c6a;
+  --tagOptionText: #FFF;
+}

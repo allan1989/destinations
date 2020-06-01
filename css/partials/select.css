@@ -1,0 +1,29 @@
+/* Select */
+
+.select {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.selectInput {
+  border: none;
+  outline: none;
+  padding: 0.6em 1.8em 0.6em 4em;
+}
+
+.selectWrapper{
+  display: inline-block;
+  position: relative;
+}
+
+.selectIcon {
+  position: absolute;
+  width: 20px;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+}
+
+.default {
+  text-transform: uppercase;
+}

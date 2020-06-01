@@ -1,0 +1,10 @@
+@import 'reset.css';
+@import 'typography.css';
+
+/* Partials */
+
+@import './partials/general.css';
+@import './partials/layout.css';
+@import './partials/headings.css';
+@import './partials/select.css';
+@import './partials/tile.css';
